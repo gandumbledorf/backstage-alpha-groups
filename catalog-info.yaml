@@ -1,0 +1,21 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: alpha-group-a
+ spec:
+  type: team
+  children: []
+  members:
+    - gandumbledorf
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: alpha-group-b
+ spec:
+  type: team
+  children: []
+  members:
+    - gandumbledorf
+    - gavinjalberghini
